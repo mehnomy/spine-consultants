@@ -223,7 +223,7 @@ img {
   max-width: 100%;
 }
 strong {
-  color: #111;
+  /* color: #111; */
   font-weight: 600;
 }
 ::-moz-selection {
@@ -3174,3 +3174,40 @@ body.scroll-lock .popup-preview {
 #social-icon-custom {
   font-size: 20px;
 }
+
+/* Banner CSS */
+
+.banner {
+  background: #009579;
+  display: none;
+}
+
+.banner__content {
+  padding: 16px;
+  max-width: 750px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.banner__text {
+  flex-grow: 1;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+.banner__close {
+  cursor: pointer;
+  background: none !important;
+  border: none !important;
+  box-shadow: none;
+  width: auto;
+  padding: 10px;
+  align-items: center;
+}
+.banner__text,
+.banner__close > i {
+  color: white;
+}
+
+
+/* End Banner Css */
