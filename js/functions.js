@@ -28,6 +28,7 @@
     optimizeSliderImageBG();
     formRegisterMemeber();
     scrollTopIcon();
+    showBanner();
   });
 
   // *** On load *** //
@@ -909,4 +910,15 @@ function convertHex(hex, opacity) {
 
   result = 'rgba(' + r + ', ' + g + ', ' + b + ', ' + opacity + ')';
   return result;
+}
+
+function showBanner() {
+  var url = window.location.href;
+  // Get DIV
+  var msg = document.getElementById('Uplift__banner');
+  // Check if URL contains the keyword
+  if (url.search('uplift') > 0) {
+    // Display the message
+    msg.style.display = 'block';
+  }
 }

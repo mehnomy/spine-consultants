@@ -19,6 +19,7 @@ gtag('config', 'UA-169320358-1');
 	============================================= -->
     <link href="css/css-assets.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
+    
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i"
       rel="stylesheet"
@@ -224,6 +225,21 @@ gtag('config', 'UA-169320358-1');
       </header>
       <!-- #header end -->
 
+      <!-- Uplift  Special Banner -->
+      <div class="banner" id="Uplift__banner">
+        <div class="banner__content">
+          <div class="banner__text">
+            <p>
+              <strong>Special Uplift Members Offer:</strong> Receive 25% off when you book a "Uplift members consult/treatment" 
+              <button class="banner__close" type="button">
+                <i class="far fa-window-close" style="font-size: 16px"></i>
+              </button>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- End Uplift Special Banner -->
+      
       <!-- Banner
 		============================================= -->
       <section id="banner" data-scroll-index="0">
@@ -1298,5 +1314,12 @@ gtag('config', 'UA-169320358-1');
     <!-- <script src="js/jquery.validate.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" integrity="sha512-37T7leoNS06R80c8Ulq7cdCDU5MNQBwlYoy1TX/WUsLFC2eYNqtKlV0QjH7r8JpG/S0GUMZwebnVFLPd6SU5yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/functions.js"></script>
+    <script>
+      document
+        .querySelector('.banner__close')
+        .addEventListener('click', function () {
+          this.closest('.banner').style.display = 'none';
+        });
+    </script>
   </body>
 </html>
