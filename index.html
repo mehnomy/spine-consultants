@@ -3,16 +3,23 @@
   <head>
     <!-- Meta
 	============================================= -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, intial-scale=1, max-scale=1"
-    />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169320358-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
 
+gtag('config', 'UA-169320358-1');
+</script>
     <!-- Stylesheets
 	============================================= -->
     <link href="css/css-assets.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
+    
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i"
       rel="stylesheet"
@@ -21,27 +28,27 @@
       href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i"
       rel="stylesheet"
     />
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Favicon
 	============================================= -->
     <link
       rel="shortcut icon"
-      href="./images/general-elements/favicon/favicon.png"
+      href="./images/general-elements/favicon/favicon-16x16.png" 
     />
     <link
       rel="apple-touch-icon"
-      href="./images/general-elements/favicon/apple-touch-icon.png"
+      href="./images/general-elements/favicon/favicon-32x32.png" 
     />
     <link
       rel="apple-touch-icon"
       sizes="72x72"
-      href="./images/general-elements/favicon/apple-touch-icon-72x72.png"
+      href="./images/general-elements/favicon/apple-icon-72x72.png" 
     />
     <link
       rel="apple-touch-icon"
       sizes="114x114"
-      href="./images/general-elements/favicon/apple-touch-icon-114x114.png"
+      href="./images/general-elements/favicon/apple-icon-114x114.png"
     />
     <script
       id="timelyScript"
@@ -76,7 +83,7 @@
                   <div class="hb-content">
                     <a class="logo logo-header" href="#">
                       <img
-                        src="./images/files/Spine Consultants_alt_logo.png"
+                        src="./images/files/Spine_Consultants_alt_logo.png"
                         alt="Spine_consultants_logo"
                       />
                       <h3><span class="colored">Spine Consultants</span></h3>
@@ -90,10 +97,10 @@
                         "
                       >
                         <div class="box-icon icon x2 colorful mr-20">
-                          <i class="fa fa-map-marker" aria-hidden="true"></i>
+                          <i class="fa fa-map-marker-alt" aria-hidden="true"></i>
                         </div>
                         <div class="box-content">
-                          <h5>335 Swan St</h5>
+                          <h5>507 Bridge Rd</h5>
                           <p>Victoria, Australia</p>
                         </div>
                         <!-- .box-content end -->
@@ -218,6 +225,21 @@
       </header>
       <!-- #header end -->
 
+      <!-- Uplift  Special Banner -->
+      <div class="banner" id="Uplift__banner">
+        <div class="banner__content">
+          <div class="banner__text">
+            <p>
+              <strong>Special Uplift Members Offer:</strong> Receive 25% off when you book a "Uplift members consult/treatment" 
+              <button class="banner__close" type="button">
+                <i class="far fa-window-close" style="font-size: 16px"></i>
+              </button>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- End Uplift Special Banner -->
+      
       <!-- Banner
 		============================================= -->
       <section id="banner" data-scroll-index="0">
@@ -293,14 +315,15 @@
                   <!-- .col-md-8 end -->
                   <div class="col-md-4 mt-120 mt-md-0">
                     <div class="row">
-                      <div class="col-md-12 col-sm-6">
+                      <div class="col-md-12 col-sm-6" style="padding-top: 20px;">
                         <div
-                          class="box-info box-info-2 reversed mb-50 mb-md-50" 
+                          class="box-info box-info-2 reversed mb-50 mb-md-50"  
                         >
                           <div class="box-icon icon x3 colorful">
                             <img
                                     src="./images/files/sliders/popular-classes/icons/dry-needling.png"
                                     alt="dry-needling"
+                                    loading="lazy"
                                 />
                           </div>
                           
@@ -319,12 +342,13 @@
                         <!-- .box-info end -->
                       </div>
                       <!-- .col-md-12 end -->
-                      <div class="col-md-12 col-sm-6">
+                      <div class="col-md-12 col-sm-6" style="padding-top: 20px;">
                         <div class="box-info box-info-2 reversed mb-md-50">
                           <div class="box-icon icon x3 colorful">
                             <img
                                     src="./images/files/sliders/popular-classes/icons/sports-nutrition.png"
                                     alt="sports-nutrition"
+                                    loading="lazy"
                                 />
                           </div>
                           <div class="box-content">
@@ -347,17 +371,18 @@
                   </div>
                   <!-- .col-md-4 end -->
                   <div class="col-md-4 text-center">
-                    <img src="./images/files/ben4.png" alt="" />
+                    <img src="./images/files/Ben-Sutherland.png" alt="" />
                   </div>
                   <!-- .col-md-4 end -->
                   <div class="col-md-4 mt-120 mt-md-50">
                     <div class="row">
                       <div class="col-md-12 col-sm-6">
-                        <div class="box-info box-info-2 mb-50 mb-md-50">
+                        <div class="box-info box-info-2 mb-50 mb-md-50" style="padding-top: 20px;">
                           <div class="box-icon icon x3 colorful">
                             <img
                                   src="./images/files/sliders/popular-classes/icons/Remedial-massage.png"
                                   alt="Remedial Massage"
+                                  loading="lazy"
                                 />
                           </div>
                           <div class="box-content">
@@ -374,12 +399,13 @@
                         <!-- .box-info end -->
                       </div>
                       <!-- .col-md-12 end -->
-                      <div class="col-md-12 col-sm-6">
+                      <div class="col-md-12 col-sm-6" style="padding-top: 20px;">
                         <div class="box-info box-info-2 mb-md-0">
                           <div class="box-icon icon x3 colorful">
                             <img
                                   src="./images/files/sliders/popular-classes/icons/exercise.png"
-                                  alt=""
+                                  alt="Exercise Rehabilitation"
+                                  loading="lazy"
                                 />
                           </div>
                           <div class="box-content">
@@ -435,7 +461,8 @@
                               <div class="box-icon icon spaced colorful-bg x4">
                                 <img
                                   src="./images/files/sliders/popular-classes/icons/massage.png"
-                                  alt=""
+                                  alt="Massage"
+                                  loading="lazy"
                                 />
                               </div>
                               <div class="box-img img-bg">
@@ -443,6 +470,7 @@
                                   ><img
                                     src="./images/files/popular-techniques/neck-massage.jpg"
                                     alt="neck remedial massage"
+                                    loading="lazy"
                                 /></a>
                                 <div class="overlay">
                                   <div class="overlay-inner">
@@ -482,6 +510,7 @@
                                 <img
                                   src="./images/files/sliders/popular-classes/icons/muscle scraping.png"
                                   alt="active release therapy"
+                                  loading="lazy"
                                 />
                               </div>
                               <div class="box-img img-bg">
@@ -489,6 +518,7 @@
                                   ><img
                                     src="./images/files/popular-techniques/muscle scraping.jpg"
                                     alt="muscle scraping"
+                                    loading="lazy"
                                 /></a>
                                 <div class="overlay">
                                   <div class="overlay-inner">
@@ -528,13 +558,15 @@
                                 <img
                                   src="./images/files/sliders/popular-classes/icons/joint mobilisations.png"
                                   alt="joint mobilizations"
+                                  loading="lazy"
                                 />
                               </div>
                               <div class="box-img img-bg">
                                 <a href="#"
                                   ><img
                                     src="./images/files/popular-techniques/joint mobilisation.jpg"
-                                    alt=""
+                                    alt="joint mobilisation"
+                                    loading="lazy"
                                 /></a>
                                 <div class="overlay">
                                   <div class="overlay-inner">
@@ -573,14 +605,16 @@
 														<div class="box-icon icon spaced colorful-bg x4">
 															<img
 																src="./images/files/sliders/popular-classes/icons/nutrition.png"
-																alt=""
+																alt="nutrition"
+                                loading="lazy"
 															/>
 														</div>
 														<div class="box-img img-bg">
 															<a href="#"
 																><img
 																	src="./images/files/popular-techniques/sports nutrition.jpg"
-																	alt=""
+																	alt="sports nutrition"
+                                  loading="lazy"
 															/></a>
 															<div class="overlay">
 																<div class="overlay-inner">
@@ -619,14 +653,16 @@
                               <div class="box-icon icon spaced colorful-bg x4">
                                 <img
                                   src="./images/files/sliders/popular-classes/icons/exercise rehabilitation.png"
-                                  alt=""
+                                  alt="exercise rehab"
+                                  loading="lazy"
                                 />
                               </div>
                               <div class="box-img img-bg">
                                 <a href="#"
                                   ><img
                                     src="./images/files/popular-techniques/exercise rehab.jpg"
-                                    alt=""
+                                    alt="rehab exercise"
+                                    loading="lazy"
                                 /></a>
                                 <div class="overlay">
                                   <div class="overlay-inner">
@@ -665,14 +701,16 @@
                               <div class="box-icon icon spaced colorful-bg x4">
                                 <img
                                   src="./images/files/sliders/popular-classes/icons/nerve flossing.png"
-                                  alt=""
+                                  alt="muscle scraping"
+                                  loading="lazy"
                                 />
                               </div>
                               <div class="box-img img-bg">
                                 <a href="#"
                                   ><img
                                     src="./images/files/popular-techniques/myofascial cupping.jpg"
-                                    alt=""
+                                    alt="myofascial cupping"
+                                    loading="lazy"
                                 /></a>
                                 <div class="overlay">
                                   <div class="overlay-inner">
@@ -711,14 +749,16 @@
                               <div class="box-icon icon spaced colorful-bg x4">
                                 <img
                                   src="./images/files/sliders/popular-classes/icons/active release therapy.png"
-                                  alt=""
+                                  alt="active release therapy"
+                                  loading="lazy"
                                 />
                               </div>
                               <div class="box-img img-bg">
                                 <a href="#"
                                   ><img
                                     src="./images/files/popular-techniques/dry needling.jpg"
-                                    alt=""
+                                    alt="dry needling"
+                                    loading="lazy"
                                 /></a>
                                 <div class="overlay">
                                   <div class="overlay-inner">
@@ -791,6 +831,7 @@
                                 <img
                                   src="./images/files/clients/damien.jpg"
                                   alt=""
+                                  loading="lazy"
                                 />
                               </div>
                               <!-- .ts-img end -->
@@ -817,6 +858,7 @@
                                 <img
                                   src="./images/files/clients/jessica.jpg"
                                   alt=""
+                                  loading="lazy"
                                 />
                               </div>
                               <!-- .ts-img end -->
@@ -843,6 +885,7 @@
                                 <img
                                   src="./images/files/clients/eliza.jpg"
                                   alt=""
+                                  loading="lazy"
                                 />
                               </div>
                               <!-- .ts-img end -->
@@ -869,6 +912,7 @@
                                 <img
                                   src="./images/files/clients/michael.jpeg"
                                   alt=""
+                                  loading="lazy"
                                 />
                               </div>
                               <!-- .ts-img end -->
@@ -900,6 +944,7 @@
                                 <img
                                   src="./images/files/clients/guy.jpeg"
                                   alt=""
+                                  loading="lazy"
                                 />
                               </div>
                               <!-- .ts-img end -->
@@ -923,9 +968,11 @@
                             <!-- .testimonial-single-1 -->
                             <div class="testimonial-single-1">
                               <div class="ts-img">
+
                                 <img
                                   src="./images/files/clients/brendan.jpg"
                                   alt=""
+                                  loading="lazy"
                                 />
                               </div>
                               <!-- .ts-img end -->
@@ -952,6 +999,7 @@
                                 <img
                                   src="./images/files/clients/mitzi.jpeg"
                                   alt=""
+                                  loading="lazy"
                                 />
                               </div>
                               <!-- .ts-img end -->
@@ -978,6 +1026,7 @@
                                 <img
                                   src="./images/files/clients/Rajitha.jpeg"
                                   alt=""
+                                  loading="lazy"
                                 />
                               </div>
                               <!-- .ts-img end -->
@@ -1009,6 +1058,7 @@
                                 <img
                                   src="./images/files/clients/triv.jpg"
                                   alt=""
+                                  loading="lazy"
                                 />
                               </div>
                               <!-- .ts-img end -->
@@ -1036,6 +1086,7 @@
                                 <img
                                   src="./images/files/clients/gladysha.jpg"
                                   alt=""
+                                  loading="lazy"
                                 />
                               </div>
                               <!-- .ts-img end -->
@@ -1062,6 +1113,7 @@
                                 <img
                                   src="./images/files/clients/Oliver.jpeg"
                                   alt=""
+                                  loading="lazy"
                                 />
                               </div>
                               <!-- .ts-img end -->
@@ -1089,6 +1141,7 @@
                                 <img
                                   src="./images/files/clients/kerrie.jpeg"
                                   alt=""
+                                  loading="lazy"
                                 />
                               </div>
                               <!-- .ts-img end -->
@@ -1136,9 +1189,10 @@
                   <div class="fb-row">
                     <a class="logo logo-footer" href="#">
                       <img
-                        src="./images/files/Spine_consultants_logo.png"
-                        
+                        src="./images/files/Spine-consultants.png"
                         alt="Spine Consultants"
+                        style="max-width: 150px; height: auto;"
+                        loading="lazy"
                       />
                       <h3><span class="colored">Spine Consultants</span></h3>
                        </a
@@ -1201,16 +1255,13 @@
                       "
                     >
                       <li>
-                        <a class="si-facebook" href="https://www.facebook.com/Spineconsultant"
-                          ><i class="fa fa-facebook"></i
-                          ><i class="fa fa-facebook"></i
-                        ></a>
+                        <a id="social-icon-custom" href="https://www.facebook.com/Spineconsultant"
+                          ><span class="fab fa-facebook-square"style="color: white;"></span>
+</a>
                       </li>
                       <li>
-                        <a class="si-instagramorange" href="https://www.instagram.com/spine_consultants/"
-                          ><i class="fa fa-instagram"></i
-                          ><i class="fa fa-instagram"></i
-                        ></a>
+                        <a id='social-icon-custom' href="https://www.instagram.com/spine_consultants/"
+                          ><span class="fab fa-instagram" style="color: white;"></span></a>
                       </li>
                     </ul>
                     <!-- .social-icons end -->
@@ -1237,20 +1288,38 @@
 
     <!-- External JavaScripts
 	============================================= -->
-    <script src="js/jquery.js"></script>
-    <script src="js/jRespond.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fitvids.js"></script>
-    <script src="js/hoverIntent.js"></script>
+    <!-- <script src="js/jquery.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js" integrity="sha512-OKuL2kpi8zfeXcqSXnGbL6tKc9JxWmppJY4mOSn1EsngRb7fx1N5+7wOTGqu2bI5OAYL3Og7/Beg7EsWG2OBKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="js/jRespond.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jRespond/1.0.0/js/jRespond.min.js" integrity="sha512-b997CokGIJlCv46HH/ZXNL+pc4Na+7HbTv71mkoS5xYGNywX9P+Gj1YczCwA+56CR+isSdTgtHVS/eU84+viIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="js/jquery.easing.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="js/jquery.fitvids.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.2.0/jquery.fitvids.min.js" integrity="sha512-/2sZKAsHDmHNoevKR/xsUKe+Bpf692q4tHNQs9VWWz0ujJ9JBM67iFYbIEdfDV9I2BaodgT5MIg/FTUmUv3oyQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="js/hoverIntent.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.10.1/jquery.hoverIntent.min.js" integrity="sha512-gx3WTM6qxahpOC/hBNUvkdZARQ2ObXSp/m+jmsEN8ZNJPymj8/Jamf8+/3kJQY1RZA2DR+KQfT+b3JEB0r9YRg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/simple-scrollbar.min.js"></script>
-    <script src="js/superfish.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplebar/5.3.6/simplebar.min.js" integrity="sha512-rn0CaCtyheymRT43p0ZuFH0SvNriLU5cuJpY2f4IcyLrbHzJdsIF1dygi9oNha1BhHagO8U+h2xRWCosYf9gCg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="js/superfish.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/superfish/1.7.10/js/superfish.min.js" integrity="sha512-gdhtclwUZCkHSSb/Q79++RssWL4eDLKHO15TC7kR/XnvlNyzcvZDRLn4BIuxadMWGIxPuj/IbFBInMpYockVCA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/scrollIt.min.js"></script>
-    <script src="js/jquery.stellar.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.mb.YTPlayer.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/simple-scrollbar.min.js"></script>
+    <!-- <script src="js/jquery.stellar.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.2/jquery.stellar.min.js" integrity="sha512-PNXCBnFH9wShbV+mYnrfo0Gf3iSREgBWmYAoMIfc+Z83vVq3Nu4yxBk6j+BZ40ZIhtW3WlTQdBvW3AYLAnlgpA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="js/owl.carousel.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/owl.carousel.min.js" integrity="sha512-G7haLFl9E9lCZ1I3SSTav4xoGV/umB0O9WMA66YH6CUQkr7xTu3vUWXOQsZbXMMY0eVAOLMtf+g5ESWZKVxWAQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="js/jquery.mb.YTPlayer.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.3.9/jquery.mb.YTPlayer.min.js" integrity="sha512-rVFx7vXgVV8cmgG7RsZNQ68CNBZ7GL3xTYl6GAVgl3iQiSwtuDjTeE1GESgPSCwkEn/ijFJyslZ1uzbN3smwYg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="js/jquery.magnific-popup.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="js/jquery.validate.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" integrity="sha512-37T7leoNS06R80c8Ulq7cdCDU5MNQBwlYoy1TX/WUsLFC2eYNqtKlV0QjH7r8JpG/S0GUMZwebnVFLPd6SU5yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/functions.js"></script>
+    <script>
+      document
+        .querySelector('.banner__close')
+        .addEventListener('click', function () {
+          this.closest('.banner').style.display = 'none';
+        });
+    </script>
   </body>
 </html>
